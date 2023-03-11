@@ -1,0 +1,20 @@
+let places = ["Canada", "Switzerland", "Malaysia", "Gilgit", "Kashmir"];
+console.log("Original Array");
+console.log(places);
+console.log("Array in alphabetical order");
+console.log([...places].sort());
+console.log("Array is still in original form");
+console.log(places);
+console.log("Array in reverse Alphabetical order");
+console.log([...places].sort().reverse());
+console.log("Array is still in original form");
+console.log(places);
+console.log("Array order has been reversed now");
+console.log(places.reverse());
+console.log("Array is reversed again and original array is retained");
+console.log(places.reverse());
+console.log("Array has now changed and it is in alphabetical order now");
+console.log(places.sort());
+console.log("Array has now changed and it is in reverse alphabetical order now");
+console.log(places.reverse());
+//# sourceMappingURL=assign18.js.map
